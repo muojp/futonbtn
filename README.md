@@ -1,3 +1,32 @@
+# futonbtn: BTClassic simple keyboard for ESP-IDF
+
+Navigate Kindle app for smartphones / tablets without putting your hands out of futon.
+It's kinda DIY keyboard, with carefully-chosen essential keys implemented (2 keys actually).
+
+There are lots of sample codes which utilize BLE but I wanted to make things work with BTClassic-only devices.
+This is a derived work of BTstack demo code.
+
+## How to build and flash
+
+Prerequisites: Install ESP-IDF SDK
+
+```
+git clone https://github.com/muojp/futonbtn.git
+cd futonbtn/
+idf.py flash
+```
+
+## Pinout
+
+ - Place a switch for LEFT button using 3V3 and GPIO13 pins
+ - Place a switch for RIGHT button using 3V3 and GPIO15 pins
+ - Connect power source (tested against 3.7V LiPo)
+
+## Built example
+
+![eg1](https://raw.githubusercontent.com/muojp/futonbtn/master/doc/img/eg1.jpg)
+![eg2](https://raw.githubusercontent.com/muojp/futonbtn/master/doc/img/eg2.jpg)
+
 # Welcome to BTstack
 
 BTstack is [BlueKitchen's](https://bluekitchen-gmbh.com) implementation of the official Bluetooth stack.
