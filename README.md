@@ -24,8 +24,8 @@ idf.py flash
 
 ## Built example
 
-![eg1](https://raw.githubusercontent.com/muojp/futonbtn/master/doc/img/eg1.jpg)
-![eg2](https://raw.githubusercontent.com/muojp/futonbtn/master/doc/img/eg2.jpg)
+<img src="https://raw.githubusercontent.com/muojp/futonbtn/master/doc/img/eg1.jpg" width="240" alt="example picture 1">
+<img src="https://raw.githubusercontent.com/muojp/futonbtn/master/doc/img/eg2.jpg" width="240" alt="example picture 2">
 
 # Welcome to BTstack
 
